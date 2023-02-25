@@ -31,13 +31,13 @@ namespace AlejandroRodriguez
             for(int i = 1; i < lNumeros.Count; i++ )
             {
                 string s = i.ToString();
-                if(i % 3 == 0 && i % 5 == 0)
+                if(i % 3 == 0 && i % 5 == 0) //Mostrará las iniciales de Nombre y apellido si el numero es multiplo de 3 y 5
                 {
                     listView1.Items.Add("JR");
-                }else if(i%3==0)
+                }else if(i%3==0) //Mostrará el Nombre si el numero es multiplo de 3
                 {
                     listView1.Items.Add("Josue");
-                } else if(i%5==0 && i%5==0)
+                } else if(i%5==0 && i%5==0) //Mostrará el apellido si el numero es multiplo de 5
                 {
                     listView1.Items.Add("Rodriguez");
                 }else

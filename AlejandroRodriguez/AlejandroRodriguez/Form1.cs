@@ -19,14 +19,15 @@ namespace AlejandroRodriguez
 
         private void ejercicio1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Interes i = new Interes();
+            i.Show();
         }
 
         private void ejercicio2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                Descuento d = new Descuento();
-                d.Show();
-            }
+            Descuento d = new Descuento();
+            d.Show();
+        }
 
         private void ejercicio3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
